@@ -8,10 +8,7 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/san-lorenzo",
-      6
-    ),
+    images: loadProjectImages("san-lorenzo"),
   },
 
   [PROJECT_IDS.CIRUGIA_GENERAL]: {
@@ -20,10 +17,7 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/cirugia-general",
-      3
-    ),
+    images: loadProjectImages("cirugia-general"),
   },
 
   [PROJECT_IDS.GINECOLOGIA]: {
@@ -32,10 +26,8 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/ginecologia",
-      4
-    ),
+images: loadProjectImages("ginecologia"),
+
   },
 
   [PROJECT_IDS.CAPACITACIONES]: {
@@ -44,10 +36,8 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/capacitaciones",
-      4
-    ),
+images: loadProjectImages("capacitaciones"),
+
   },
 
   [PROJECT_IDS.CIRUGIA_LAPAROSCOPICA]: {
@@ -56,10 +46,8 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/cirugia-laparoscopica",
-      6
-    ),
+    images: loadProjectImages("cirugia-laparoscopica"),
+
   },
 
   [PROJECT_IDS.LABORATORIO]: {
@@ -68,10 +56,8 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/laboratorio",
-      6
-    ),
+    images: loadProjectImages("laboratorio"),
+
   },
 
   [PROJECT_IDS.ONCOLOGIA]: {
@@ -80,10 +66,8 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/oncologia",
-      5
-    ),
+   images: loadProjectImages("oncologia"),
+
   },
 
    [PROJECT_IDS.REPOSTERIA]: {
@@ -92,10 +76,8 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/reposteria",
-      5
-    ),
+       images: loadProjectImages("reposteria"),
+
   },
 
     [PROJECT_IDS.UROLOGIA]: {
@@ -104,10 +86,8 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/urologia",
-      5
-    ),
+           images: loadProjectImages("urologia"),
+
   },
 
     [PROJECT_IDS.EMPREXITO]: {
@@ -116,10 +96,7 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/emprexito",
-      6
-    ),
+               images: loadProjectImages("emprexito"),
   },
 
     [PROJECT_IDS.OFTALMOLOGIA]: {
@@ -128,9 +105,7 @@ export const projects = {
     category: "Branding · Redes Sociales",
     description:
       "Desarrollo completo de identidad visual, lineamientos gráficos y piezas gráficas.",
-    images: loadProjectImages(
-      "../assets/projects/oftalmologia",
-      7
-    ),
+                   images: loadProjectImages("oftalmologia"),
+
   },
 };
