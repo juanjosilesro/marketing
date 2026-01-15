@@ -1,5 +1,10 @@
-export function loadProjectImages(path, count) {
-  return Array.from({ length: count }, (_, i) =>
-    new URL(`${path}/${i + 1}.png`, import.meta.url).href
+export function loadProjectImages(folder) {
+  const images = import.meta.glob(
+    "../assets/projects/**/**/*.{png,jpg,jpeg,webp}",
+    { eager: true }
   );
+
+  return Object.entries(images)
+    .filter(([path]) => path.includes(folder))
+    .map(([, module]) => module.default);
 }
